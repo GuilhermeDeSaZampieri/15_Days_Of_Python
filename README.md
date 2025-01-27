@@ -24,7 +24,15 @@ também informada pelo usuário, e com base nisso o nome da banda é criado
 
 
 #### Código:
+
+
+```python
 print("Criador de bandas")
-print("O nome da sua banda é: " + (input("Qual o nome da sua cidade natal?\n") +" "+ input("Qual o nome do seu animal de estimação?\n")))
+print("O nome da sua banda é: " +
+      (input("Qual o nome da sua cidade natal?\n") +" "+
+       input("Qual o nome do seu animal de estimação?\n")))
+
+```
+
 
 
